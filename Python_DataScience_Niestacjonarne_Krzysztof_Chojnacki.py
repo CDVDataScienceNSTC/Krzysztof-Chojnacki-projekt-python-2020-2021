@@ -4,6 +4,12 @@
 @author: krzysztof
 """
 """
+Różne skrzynki mailowe wymagają różnych ustawień dot. bezpieczeństwa. Przykład dla
+gmail’a poniżej. Należy włączyć „dostęp do mniej bezpiecznych aplikacji” (dla skrzynek z
+weryfikacją dwuetapową) lub też wygenerować i zalogować się przy pomocy hasła dla aplikacji.
+https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4PFqYJlt7sBgBZ8yev_246uNzfTD
+dkTe9gXCsinEyxWARRk3RY5-TT-wyNn864F-q35kBLxvd-bDF3P18uti51BlB1zXQ
+
 Wszystkie moduły firm trzecich używane w projekcie można zainstalować 
 wydając wymienione poniżej polecenia w konsoli. Jeśli używasz systemu 
 operacyjnego macOS lub Linux, wówczas pip zastąp przez pip3.
