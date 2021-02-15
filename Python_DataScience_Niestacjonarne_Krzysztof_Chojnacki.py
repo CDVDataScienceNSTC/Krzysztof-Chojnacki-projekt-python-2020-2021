@@ -169,7 +169,7 @@ def zapisz_dane():
             sheet["C"+str(numery_maili+1)]=email_nadawcy
             sheet["D"+str(numery_maili+1)]=temat
             sheet["E"+str(numery_maili+1)]=tresc_html
-    
+    #SZYMON JEST SUPER
     wb.save('EMAILE_Z_DNIA_' + data2_zapisu +'.xlsx')
     
     komunikat = ("Sukces. \nPlik zapisany w folderze: \n{} \npod nazwa: \n{}").format(os.getcwd(), 'emaile z dnia ' + data2_zapisu +'.xlsx')
